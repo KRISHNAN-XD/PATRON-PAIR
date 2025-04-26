@@ -69,7 +69,7 @@ router.get('/', async (req, res) => {
 
                         await delay(5000);
                         await EmpirePairWeb.sendMessage(user_jid, {
-                            text: `> PAIR CODE CONNECTED SUCCESSFULLY ✅  \n\n╭────「 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 」────◆  \n│ ∘ ʀᴇᴘᴏ:  \n│ ∘ https://tinyurl.com/PATRONX-REPO  \n│──────────────────────  \n│ ∘ Gʀᴏᴜᴘ:  \n│ ∘ https://tinyurl.com/PATRON-GROUP  \n│──────────────────────  \n│ ∘ CHANNEL:  \n│ ∘ https://tinyurl.com/PATRON-CHANNEL  \n│──────────────────────  \n│ ∘ Yᴏᴜᴛᴜʙᴇ:  \n│ ∘ https://tinyurl.com/PATRON-YOUTUBE  \n│──────────────────────  \n│ ∘ 𝗣𝗔𝗧𝗥𝗢𝗡-𝗠𝗗 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗣𝗔𝗧𝗥𝗢𝗡-𝗧𝗘𝗖𝗛 \n╰──────────────────────`
+                            text: `> PAIR CODE CONNECTED SUCCESSFULLY ✅  \n\n╭────「 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃 」────◆  \n│ ∘ ʀᴇᴘᴏ:  \n│ ∘ https://tinyurl.com/KRISHNAN-REPO  \n│──────────────────────  \n│ ∘ Gʀᴏᴜᴘ:  \n│ ∘ https://tinyurl.com/KRISHNAN-GROUP  \n│──────────────────────  \n│ ∘ CHANNEL:  \n│ ∘ https://tinyurl.com/PATRON-CHANNEL  \n│──────────────────────  \n│ ∘ Yᴏᴜᴛᴜʙᴇ:  \n│ ∘ https://tinyurl.com/KRISHNAN-YOUTUBE  \n│──────────────────────  \n│ ∘ 𝗣𝗔𝗧𝗥𝗢𝗡-𝗠𝗗 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗣𝗔𝗧𝗥𝗢𝗡-𝗧𝗘𝗖𝗛 \n╰──────────────────────`
                         });
                     } catch (e) {
                         exec('pm2 restart empire-md-session');
